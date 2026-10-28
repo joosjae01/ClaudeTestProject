@@ -22,14 +22,14 @@
 
 
 ## 상시 로드 (매 세션 적용)
-- @Docs\Claude\ClaudeCodeRules.md
-- @Docs\TechSpec.md
+@Docs\Claude\ClaudeCodeRules.md
+@Docs\TechSpec.md
 
 ## 온디맨드 참조 (매 세션 읽지 않음 - 해당 작업을 할 때에만 읽음)
 
 ### 소스코드 작성 시
-- @Docs\Claude\Code\CodeStyleConvention.md
-- @Docs\Claude\Code\DevelopManagement.md
+`@Docs\Claude\Code\CodeStyleConvention.md`
+`@Docs\Claude\Code\DevelopManagement.md`
 
 ### 기능 명세 작성 시
-- @Docs\Claude\DetailsDocument.md
+`@Docs\Claude\DetailsDocument.md`
