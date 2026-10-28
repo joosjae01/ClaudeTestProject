@@ -63,12 +63,13 @@
 
 | 대상 | 유니티 생명주기 | 메서드 명 |
 | --- | --- | --- |
-| 컴퍼넌트 | Awake | `CacheComponent` |
-| 이벤트 구독 | OnEnable | `BindEvent` |
-| 이벤트 구독 해제 | OnDisable | `UnBindEvent` |
-| 필드, 값 초기화 | Start | `Init` |
+| 컴퍼넌트 | Awake | `CacheComponents()` |
+| 이벤트 구독 | OnEnable | `BindEvent()` |
+| 이벤트 구독 해제 | OnDisable | `UnBindEvent()` |
+| 필드, 값 초기화 | Start | `Init()` |
 
-- 해당 메서드는 private로 작성하며, 모든 메서드 중 가장 최하단에 둔다.
+- 해당 메서드 들은 private로 작성하며, 모든 메서드 중 가장 최하단에 둔다.
+- 생명 주기에 메서드가 하나만 호출된다면, 람다식을 사용하여 호출한다.
 
 ### (4) 주석 양식
 - 현 단계에서 구현하지 않고 추가로 해야 할 일은 // TODO : 구문을 사용한다.
