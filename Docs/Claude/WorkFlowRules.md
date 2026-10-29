@@ -12,7 +12,7 @@
 - 업무에 착수할 때에는 기존 문서와 이 다이어그램을 참고한다.
 
 ```mermaid
-flowchart LR
+flowchart TD
     CMD[사용자 명령] --> FEAT[기능 구현]
     CMD --> BUG[버그 발생]
     CMD --> DOC[문서 작성]
@@ -94,6 +94,10 @@ flowchart LR
 
 - 현재 브랜치가 `main`, `Develop` 이면 작업을 거부하고, feature 브랜치로 변경하도록 안내한다.
 - 브랜치명은 `Docs\Context\GitConvention.md` 의 `Branch 컨벤션` 을 따르도록 안내한다.
+- 해당 Issue의 담당자(Assignees)를 사용자로 지정한다.
+- `Docs\Details\` 에서 업무와 관련된 기술 문서를 확인한다.
+    - 관련 문서가 있으면 그 명세를 기준으로 작업한다. 명세와 다르게 구현해야 하면 착수 전에 보고한다.
+    - 관련 문서가 없고 새 기술을 적용하는 업무라면, `DevelopManagement.md` 의 `기술 적용 규칙` 에 따라 명세를 먼저 작성해 승인받는다.
 
 ### (2) 작업 중
 
