@@ -33,3 +33,6 @@
 
 ### 기능 명세 작성 시
 `@Docs\Claude\DetailsDocument.md`
+
+### Github Issues 관련
+`@Docs\Documentation\Github Issue Rule`
