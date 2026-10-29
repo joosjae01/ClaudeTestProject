@@ -143,6 +143,7 @@ flowchart TD
 
 ## 7. PR 작성
 
+- `/create-pr` 스킬로 수행한다. 아래는 스킬이 따르는 규칙이다.
 - `Docs\Template\PullRequestTemplate.md` 양식과 `Docs\Context\GitConvention.md` 의 `Pull Request 컨벤션` 을 따른다.
 - 관련 이슈가 있으면 `close #이슈번호` 로 연결한다. 없으면 `관련 이슈` 섹션에 "없음" 을 기재한다.
 - 작업 브랜치가 원격에 Push 되어 있는지 확인한다. 되어 있지 않으면 사용자에게 Push 를 요청한다.
