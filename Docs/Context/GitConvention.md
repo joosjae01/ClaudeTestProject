@@ -13,13 +13,13 @@
 
 ### (2) Branch 컨벤션
 1. 업로드한 내용을 넘어 작업 범위가 깊어지지 않게 기능 하나가 완성되면 PR을 합니다.
-2. 브랜치명은 `접두사_이름_업무제목` 으로 맞춥니다.
+2. 브랜치명은 `접두사/이름-업무제목` 으로 맞춥니다.
 3. 접두사 종류
 
 | 타입 | 사용처 | 예시 |
 | --- | --- | --- |
-| feat | 기능 개발, 구현 | feat_joosjae01_GameManager |
-| fix | 버그 수정 (로직 변경) | fix_joosjae01_PlayerCollision |
+| feature | 기능 개발, 구현 | feature/joosjae01-GameManager |
+| fix | 버그 수정 (로직 변경) | fix/joosjae01-PlayerCollision |
 
 ### (3) Pull Request 컨벤션
 1. 미리 정해진 PR 양식에 맞춰 내용을 작성합니다.
