@@ -17,13 +17,13 @@ public class PlayerMoveController : MonoBehaviour
 
     private void OnDisable() => UnBindEvent();
 
-    // 입력 방향 기준 XZ 평면 이동
+    // 입력 방향으로 XZ 평면 이동, Y 속도는 중력 유지
     private void Move()
     {
         Vector2 input = _moveAction.action.ReadValue<Vector2>();
-
-        // y 속도 유지 (중력)
-        _rigidbody.linearVelocity = new Vector3(input.x * _moveSpeed, _rigidbody.linearVelocity.y, input.y * _moveSpeed);
+        Vector3 velocity = new Vector3(input.x, 0f, input.y) * _moveSpeed;
+        velocity.y = _rigidbody.linearVelocity.y;
+        _rigidbody.linearVelocity = velocity;
     }
 
     private void CacheComponents() => _rigidbody = GetComponent<Rigidbody>();
