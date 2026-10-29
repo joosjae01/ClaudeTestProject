@@ -37,3 +37,6 @@
 
 ### Github Issues 등록 시
 `/create-issue` 스킬을 호출한다. (지침 문서는 스킬이 필요한 섹션만 읽음)
+
+### Github PR 작성 시
+`/create-pr` 스킬을 호출한다. (지침 문서는 스킬이 필요한 섹션만 읽음)
