@@ -23,6 +23,7 @@
 
 ## 상시 로드 (매 세션 적용)
 @Docs\Claude\ClaudeCodeRules.md
+@Docs\Claude\WorkFlowRules.md
 @Docs\TechSpec.md
 
 ## 온디맨드 참조 (매 세션 읽지 않음 - 해당 작업을 할 때에만 읽음)
